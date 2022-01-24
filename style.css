@@ -1,0 +1,205 @@
+* {
+    text-decoration:none;
+    margin:0px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:justify;
+    font-weight:lighter;   
+}
+
+nav {
+    border:1px solid rgb(8, 0, 41);
+    background-color:rgb(3, 3, 39);
+    color:white;
+    font-size:17px;
+    padding:37px;
+}
+
+#divisão001 {
+ display:inline-block;
+ padding:17px;
+}
+
+#divisão001:hover  >#home001 {
+    color:rgb(129, 129, 129);
+ background-color:rgb(1, 1, 17); 
+}
+
+#divisão002:hover  >#nome001 {
+    color:rgb(129, 129, 129);
+ background-color:rgb(1, 1, 17);
+}
+
+#divisão003:hover  >#sabermais {
+    color:rgb(129, 129, 129);
+ background-color:rgb(1, 1, 17);
+}
+
+#Menu001:hover {
+    color:rgb(129, 129, 129);
+ background-color:rgb(1, 1, 17);
+ float:left;
+}
+
+#divisão001   li{
+   text-align:right;   
+   }
+
+body {
+    font-family:'Fredericka the Great';    
+    background-attachment:fixed;
+   list-style:none;
+   background: url("img/llll.png") center 
+}
+
+nav li{
+  display:inline-block; 
+}
+
+ul {
+    text-align:right;
+}
+a {
+    color:white;
+}
+
+.menu001 {
+    float:left;
+    color:white;
+    padding:17px;
+}
+
+.Contato {
+    border:2px solid white;    
+    background-color:rgb(1, 1, 17);
+    color:white;   
+    text-align:center;    
+   display:none;  
+   padding:7px; 
+}
+
+.menu001:hover > .Contato { 
+     display:block;
+}
+
+.menu001:hover .Contato{ 
+   background-color:rgb(1, 1, 17);    
+   border:2px solid black;   
+   display:block;
+}
+
+#numero {
+    display:none;
+    color:white; 
+    border:1px solid white;   
+    float:left; 
+    background:rgb(1, 1, 17);
+    height:27px;
+    width:127px;
+    font-family:17px;
+    padding-left:1px;
+}
+
+.Contato:hover>#numero{
+    display:block;    
+}
+.Contato:hover {
+    color:rgb(97, 97, 97);
+}
+
+.menu001:hover {  
+    color:rgb(97, 97, 97);
+    background-color:rgb(1, 1, 17);
+}
+
+#numero:hover {
+    color:rgb(97, 97, 97);
+    border:2px solid rgb(97, 97, 97);
+   }
+
+#insta001:hover {
+    color:rgb(97, 97, 97);   
+    
+}
+
+#sabermais001:hover {
+    color:rgb(97, 97, 97);
+}
+
+#oquefaço0011 li{
+    padding-top:77px;
+ display:inline-block; 
+}
+
+
+.investir001 {
+  border-radius:17px;
+  border:2px solid white;  
+  background-color:rgb(10, 10, 26);
+  color:white;
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Waterfall', cursive;
+  margin-right:22px;
+}
+
+#investir0011 {
+    padding-right:137px; 
+    
+}
+
+#sabersobre001 h1{
+    display:none;
+    color:black;  
+}
+
+#sabersobre001:hover> h1{
+  display:block;
+  padding:50px;
+}
+
+#spaner001 {
+    color:orange;
+    font-size:30px; text-align:center; font-family:'Fredericka the Great'   
+}
+
+#spaner002 {
+    color:skyblue;
+    font-size:30px; text-align:center; font-family:'Fredericka the Great'   
+}
+
+#spaner003 {    
+    color:yellow;
+    font-size:30px; text-align:center; font-family:'Fredericka the Great'      
+}
+
+#lista0017 {
+    border:4px solid greenyellow;
+    background-color:black;
+    color:greenyellow;
+    padding-top:21px;    
+}
+
+#lista0017:hover {
+    background: url("img/hr.png") center   
+}
+
+#estudo001:hover {
+    background: url("img/madeira.png") center
+}
+
+#listacarros001 {   
+ background-image:linear-gradient(to right, black, gray);
+}
+
+#listacarros001:hover  {
+    border:2px solid blue;
+    background-image:linear-gradient(to right, gray, black)    
+}
+
+#lista0022 {
+    background-image:linear-gradient(to right, rgb(29, 0, 95)50%, rgb(0, 255, 149));
+}
+
+#lista0022:hover {
+    border:2px solid yellow;
+    background-image:linear-gradient(to right, rgb(0, 255, 149), rgb(29, 0, 95) );
+}
